@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarInline
-      logo="BookVerse"
+      logo="Ahmad Ali"
       ctaButton={{
         text: "Sign In",
         href: "#",
