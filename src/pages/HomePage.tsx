@@ -173,6 +173,7 @@ export default function HomePage() {
           <FaqTabbedAccordion
       tag="Help Center"
       title="Frequently Asked Questions"
+      description="Find answers to common questions about our services, policies, and more."
       categories={[
         {
           name: "Purchases",
