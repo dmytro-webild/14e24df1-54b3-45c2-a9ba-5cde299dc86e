@@ -52,6 +52,15 @@ export default function Layout() {
       <main className="flex-grow">
         <Outlet />
       </main>
+      <div className="w-content-width mx-auto py-8 flex justify-center items-center gap-6 text-accent border-t border-border/10">
+        <span className="text-sm font-medium">Secure Payments:</span>
+        <div className="flex gap-4 items-center">
+          <span className="font-bold">VISA</span>
+          <span className="font-bold">Mastercard</span>
+          <span className="font-bold">PayPal</span>
+          <span className="font-bold">Apple Pay</span>
+        </div>
+      </div>
       <SectionErrorBoundary name="footer">
         <FooterSimple
       brand="BookVerse"
