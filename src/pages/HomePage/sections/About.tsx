@@ -10,11 +10,10 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about">
         <SectionErrorBoundary name="about">
               <AboutText
-          title="Welcome to BookVerse"
-          primaryButton={{
-            text: "Get Started",        href: "#"}}
-          textAnimation="fade"
-        />
+        title="eBook Bazaar provides digital books for readers worldwide."
+        primaryButton={{"text":"Browse Books","href":"#book-store"}}
+        textAnimation="fade"
+      />
         </SectionErrorBoundary>
       </div>
   );

@@ -10,21 +10,19 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroSplitMediaGrid
-          tag="Your Digital Library"
-          title="Unlock Infinite Stories with BookVerse"
-          description="Discover thousands of eBooks across all genres. Read anytime, anywhere with our instant download platform."
-          primaryButton={{
-            text: "Browse Books",        href: "#book-store"}}
-          secondaryButton={{
-            text: "Explore Categories",        href: "#categories"}}
-          items={[
+        tag="eBook Bazaar"
+        title="Discover, Read and Download the Best eBooks"
+        description="Thousands of eBooks across business, self-help, education, technology and fiction."
+        primaryButton={{"href":"#book-store","text":"Browse Books"}}
+        secondaryButton={{"href":"#categories","text":"Explore Categories"}}
+        items={[
             {
               imageSrc: "http://img.b2bpic.net/free-photo/professional-young-woman-holding-mobile-phone_23-2148452658.jpg"},
             {
               imageSrc: "http://img.b2bpic.net/free-photo/beautiful-landscape-from-magazine-coming-life_23-2151158560.jpg"},
           ]}
-          textAnimation="slide-up"
-        />
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
