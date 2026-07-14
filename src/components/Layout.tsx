@@ -9,11 +9,11 @@ export default function Layout() {
   const navItems = [
   {
     "name": "Home",
-    "href": "#"
+    "href": "#hero"
   },
   {
-    "name": "Browse",
-    "href": "#products"
+    "name": "Browse Books",
+    "href": "#book-store"
   },
   {
     "name": "About",
@@ -22,18 +22,6 @@ export default function Layout() {
   {
     "name": "Contact",
     "href": "#contact"
-  },
-  {
-    "name": "Hero",
-    "href": "#hero"
-  },
-  {
-    "name": "Metrics",
-    "href": "#metrics"
-  },
-  {
-    "name": "Testimonial",
-    "href": "#testimonial"
   }
 ];
 
