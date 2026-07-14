@@ -14,9 +14,9 @@ export default function HeroSection(): React.JSX.Element {
           title="Unlock Infinite Stories with BookVerse"
           description="Discover thousands of eBooks across all genres. Read anytime, anywhere with our instant download platform."
           primaryButton={{
-            text: "Browse Books",        href: "#products"}}
+            text: "Browse Books",        href: "#book-store"}}
           secondaryButton={{
-            text: "Explore Categories",        href: "#"}}
+            text: "Explore Categories",        href: "#categories"}}
           items={[
             {
               imageSrc: "http://img.b2bpic.net/free-photo/professional-young-woman-holding-mobile-phone_23-2148452658.jpg"},

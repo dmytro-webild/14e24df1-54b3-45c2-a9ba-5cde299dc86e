@@ -12,7 +12,7 @@ export default function Layout() {
     "href": "#hero"
   },
   {
-    "name": "Browse Books",
+    "name": "Books",
     "href": "#book-store"
   },
   {
@@ -36,8 +36,8 @@ export default function Layout() {
         <NavbarInline
       logo="Ahmad Ali"
       ctaButton={{
-        text: "Sign In",
-        href: "#",
+        text: "Get Started",
+        href: "#book-store",
       }}
      navItems={navItems} />
       </SectionErrorBoundary>
