@@ -16,6 +16,10 @@ export default function Layout() {
     "href": "#book-store"
   },
   {
+    "name": "Categories",
+    "href": "#categories"
+  },
+  {
     "name": "About",
     "href": "#about"
   },
