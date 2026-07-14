@@ -20,11 +20,11 @@ export default function Layout() {
     "href": "#categories"
   },
   {
-    "name": "About",
+    "name": "About Us",
     "href": "#about"
   },
   {
-    "name": "Contact",
+    "name": "Contact Us",
     "href": "#contact"
   }
 ];
@@ -34,10 +34,10 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarInline
-      logo="Ahmad Ali"
+      logo="eBook Bazaar"
       ctaButton={{
-        text: "Get Started",
-        href: "#book-store",
+        text: "Sign In",
+        href: "#",
       }}
      navItems={navItems} />
       </SectionErrorBoundary>
@@ -55,54 +55,32 @@ export default function Layout() {
       </div>
       <SectionErrorBoundary name="footer">
         <FooterSimple
-      brand="BookVerse"
+      brand="eBook Bazaar"
       columns={[
         {
-          title: "Company",
+          title: "Links",
           items: [
             {
-              label: "About Us",
-              href: "#",
+              label: "About",
+              href: "#about",
             },
             {
-              label: "Careers",
-              href: "#",
+              label: "Contact",
+              href: "#contact",
             },
             {
               label: "Privacy Policy",
               href: "#",
             },
-          ],
-        },
-        {
-          title: "Resources",
-          items: [
             {
-              label: "Reading Tips",
-              href: "#",
-            },
-            {
-              label: "Blog",
-              href: "#",
-            },
-            {
-              label: "Support",
+              label: "Terms & Conditions",
               href: "#",
             },
           ],
-        },
+        }
       ]}
-      copyright="© 2024 BookVerse Inc. All rights reserved."
-      links={[
-        {
-          label: "Terms of Service",
-          href: "#",
-        },
-        {
-          label: "Sitemap",
-          href: "#",
-        },
-      ]}
+      copyright="© eBook Bazaar"
+      links={[]}
     />
       </SectionErrorBoundary>
     </StyleProvider>
